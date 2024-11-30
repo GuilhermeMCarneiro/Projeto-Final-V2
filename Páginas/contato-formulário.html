@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para dúvidas</title>
+    <link rel="stylesheet" href="../Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="../pagina-inicial.html">Página Inicial</a></li>
+              <li><a href="../Páginas/Introdução.html">Introdução</a></li>
+              <li><a href="../Páginas/histórico.html">Histórico</a></li>
+              <li><a href="../Páginas/Interesses.html">Interesses</a></li>
+              <li><a href="../Páginas/contato-zap.html">Contato</a></li>
+              <li><a href="../Páginas/redes-sociais.html">Redes Sociais</a></li>
+              <li><a href="../Páginas/contato-formulário.html">Dúvidas</a></li>
+              <li><a href="../Páginas/aprendizado.html">Aprendizado</a></li>
+
+            </ul>
+        </nav>
+        </header>
+        <div class="flex items-center justify-center p-12">
+            <!-- Author: FormBold Team -->
+            <!-- Learn More: https://formbold.com -->
+            <div class="mx-auto w-full max-w-[550px]">
+              <form  method="POST">
+                <div class="mb-5">
+                  <label
+                    for="name"
+                    class="mb-3 block text-base font-medium text-black"
+                  >
+                    Nome
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Nome de identificação"
+                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
+                  />
+                </div>
+                <div class="mb-5">
+                  <label
+                    for="email"
+                    class="mb-3 block text-base font-medium text-black"
+                  >
+                    Email 
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email para contato"
+                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
+                  />
+                </div>
+                <div class="mb-5">
+                  <label
+                    for="subject"
+                    class="mb-3 block text-base font-medium text-black"
+                  >
+                    Assunto
+                  </label>
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Digite o Assunto da mensagem."
+                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
+                  />
+                </div>
+                <div class="mb-5">
+                  <label
+                    for="message"
+                    class="mb-3 block text-base font-medium text-black"
+                  >
+                    Mensagem
+                  </label>
+                  <textarea
+                    rows="4"
+                    name="message"
+                    id="message"
+                    placeholder="Digite sua mensagem aqui!"
+                    class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
+                  ></textarea>
+                </div>
+                <div>
+                  <button
+                    class="hover:shadow-form rounded-md bg-black py-3 px-8 text-base font-semibold text-white outline-none"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        <footer></footer>
+</body>
+</html>
